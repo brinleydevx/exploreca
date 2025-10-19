@@ -1,0 +1,33 @@
+.footer {
+  background-color: #14213d; /* dark blue tone */
+  color: #f8f9fa;
+}
+
+.footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffd60a;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.bg-light .footer {
+  background-color: #f1f1f1;
+  color: #212529;
+}
+
+body.bg-light .footer a {
+  color: #212529;
+}
+
+body.bg-light .footer a:hover {
+  color: #0d6efd;
+}
+
+
