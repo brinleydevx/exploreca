@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Discover Canada | Blog</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
+            <style>
+                body {
+                font-family: 'Outfit', sans-serif;
+                background-color: #fafafa;
+                color: #222;
+                line-height: 1.75;
+                }
+                .hero {
+                background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                            url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+                color: white;
+                text-align: center;
+                padding: 120px 20px;
+                }
+                .hero h1 {
+                font-size: 3rem;
+                font-weight: 700;
+                margin-bottom: 20px;
+                }
+                .hero p {
+                font-size: 1.2rem;
+                max-width: 720px;
+                margin: 0 auto;
+                opacity: 0.9;
+                }
+                section.blog-topic {
+                padding: 80px 0;
+                }
+                section.blog-topic:nth-of-type(even) {
+                background-color: #fff;
+                }
+                section.blog-topic:nth-of-type(odd) {
+                background-color: #f5f5f5;
+                }
+                .topic-title {
+                color: #D52B1E;
+                font-weight: 700;
+                font-size: 2rem;
+                margin-bottom: 20px;
+                }
+                .topic-img {
+                border-radius: 12px;
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                margin-bottom: 20px;
+                transition: transform 0.4s ease;
+                }
+                .topic-img:hover {
+                transform: scale(1.03);
+                }
+                footer {
+                background-color: #111;
+                color: #bbb;
+                text-align: center;
+                padding: 25px 0;
+                }
+                .fadeup {
+                opacity: 0;
+                transform: translateY(30px);
+                animation: fadeUp 1s forwards;
+                }
+                @keyframes fadeUp {
+                to { opacity: 1; transform: translateY(0); }
+                }
+            </style>
+        </head>
+        <body>
+
+        <section class="hero fadeup">
+            <div class="container">
+                <h1>Blog – Discover Canada</h1>
+                <p>Dive deep into stories, insights, and inspiration from Canada’s landscapes, cities, culture, and cuisine.</p>
+            </div>
+        </section>
+
+        <section class="blog-topic fadeup">
+            <div class="container">
+                <h2 class="topic-title">Travel Tips</h2>
+                <img src="https://www.aljazeera.com/wp-content/uploads/2020/01/a0531c68945e46efa2c6bb14bd2eb94f_18.jpeg?resize=770%2C513&quality=80" alt="Travel Tips Canada" class="topic-img">
+                <p>When travelling in Canada, being prepared enriches the experience. From how to pack smart for shifting weather to understanding local transport and safety—with so much to explore, practical advice ensures your journey flows smoothly.  
+                For example, clean and orderly public spaces are one of the things visitors notice about Canada early on. :contentReference[oaicite:1]{index=1}  
+                Knowing the “small rules” — going light on luggage, respecting nature, using local transit — makes you feel less like a tourist and more like a welcome guest.</p>
+                <p>Whether you're visiting a bustling city like Toronto or exploring remote wilderness, a few intentional travel tips will make the difference between seeing and truly experiencing Canada.</p>
+            </div>
+        </section>
+
+        <section class="blog-topic fadeup">
+            <div class="container">
+                <h2 class="topic-title">Cultural Insights</h2>
+                <img src="https://www.vec.ca/wp-content/uploads/2019/03/Canadian-culture.jpg" alt="Cultural Insights Canada" class="topic-img">
+                <p>Canada is a vivid tapestry of Indigenous heritage, immigrant traditions, and evolving urban culture. You’ll find yourself at festivals, art galleries, and street corners where languages and stories converge. :contentReference[oaicite:3]{index=3}  
+                Embracing this cultural richness means more than visiting places—it means seeking meaningful encounters, acknowledging land histories, and celebrating diverse ways of living.</p>
+                <p>From the welcoming smile of a local artisan to the hand-painted storefronts downtown and the music floating through multicultural neighbourhoods, cultural insight opens your experience from “seeing” to “feeling”.</p>
+            </div>
+        </section>
+
+        <section class="blog-topic fadeup">
+            <div class="container">
+                <h2 class="topic-title">Food &amp; Wine</h2>
+                <img src="https://thereview.ca/wp-content/uploads/2022/06/Pexels-photo-for-Leah-Beauchamp-June-29-column-1280x640.jpg" alt="Food & Wine Canada" class="topic-img">
+                <p>In Canada, food and wine don’t just nourish—they tell a story. From the maple forests of Ontario to the vineyard slopes of British Columbia, ingredients, chefs and festivals shape memorable culinary journeys. :contentReference[oaicite:4]{index=4}  
+                Savoring Canada means connecting over a meal, discovering local craft wines, and letting taste guide your exploration as much as sight.</p>
+                <p>This isn’t just dining—it’s immersion. Whether you’re tasting the freshest ocean-caught salmon, sipping chilled riesling beside vineyard rows, or discovering street-food gems in Toronto, every bite and sip shapes a story of place.</p>
+            </div>
+        </section>
+
+        <section class="blog-topic fadeup">
+            <div class="container">
+                <h2 class="topic-title">Events</h2>
+                <img src="https://frontier-canada.co.uk/wp-content/uploads/2020/01/Winterlude-800x800-1.jpg" alt="Events Canada" class="topic-img">
+                <p>Canada’s calendar brims with celebrations, from Indigenous storytelling gatherings to gourmet harvest festivals and sport-filled city events. These moments shape your visit and create lasting memories. :contentReference[oaicite:5]{index=5}  
+                Experiencing a local event means sharing in community, rhythm, colour and energy beyond ordinary touring.</p>
+                <p>When you align your trip with a major festival or event, you’re not just visiting—you’re participating. Whether cheering at a city sports match, learning from a cultural ceremony, or raising a glass at a wine fest, Canada’s events amplify the spirit of place.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Discover Canada | Explore. Reflect. Inspire.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

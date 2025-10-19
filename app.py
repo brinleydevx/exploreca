@@ -4,14 +4,14 @@ from flask import Flask, jsonify, render_template
 app = Flask(__name__)
 
 
-
+# route for homepage         --- done ---
 @app.route("/")
 def homepage():
     return render_template('home.html')
 
 
 
-# route for destination pages
+# route for destination pages       --- done ---
 @app.route("/destinations")
 def destinations():
     return render_template('destinations.html')
@@ -19,24 +19,28 @@ def destinations():
 # route for blog post pages
 @app.route("/blog-post")
 def blog_post():
-    return "<h1>Blog Post Page</h1><p>This is a sample blog post.</p>"
+    return render_template('blog_post.html')
 
-# route for home page
+# route for home page      --- done ---
 @app.route("/home")
 def home():
     return render_template('home.html')
 
-# route for experiences page
+# route for experiences page  --- done ---
 @app.route("/experiences")
 def experiences():
-    return "<h1>Experiences Page</h1><p>Discover unique experiences in Canada.</p>"
+    return render_template('experience.html')
+
+@app.route("/discover")
+def discover():
+    return render_template('discover.html')
 
 # route for support page
 @app.route("/support")
 def support():
-    return "<h1>Support Page</h1><p>Get help and support for your travel plans.</p>"
+    return render_template('contact.html')
 
-# route for learn more page
+# route for learn more page --- done ---
 @app.route("/learn-more")
 def learn_more():
     return "<h1>Learn More</h1><p>More information about exploring Canada.</p>"

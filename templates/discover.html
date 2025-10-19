@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Canada | The Journey Within</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+      color: white;
+      padding: 160px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-weight: 700;
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 20px auto 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* Section Style */
+    section {
+      padding: 90px 0;
+    }
+
+    section:nth-of-type(even) {
+      background-color: #fff;
+    }
+
+    section:nth-of-type(odd) {
+      background-color: #f5f5f5;
+    }
+
+    .section-title {
+      color: #D52B1E;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 25px;
+    }
+
+    .section-img {
+      border-radius: 18px;
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    /* Quote Section */
+    .quote {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 140px 20px;
+      background-attachment: fixed;
+    }
+
+    .quote blockquote {
+      font-size: 1.6rem;
+      font-weight: 300;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .quote span {
+      display: block;
+      margin-top: 20px;
+      font-weight: 600;
+      color: #ffdfdf;
+    }
+
+    footer {
+      background-color: #111;
+      color: #bbb;
+      text-align: center;
+      padding: 25px 0;
+      margin-top: 60px;
+    }
+
+    /* Animation */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeUp 1.2s forwards;
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero fade-up">
+    <h1>Discover More About the Canadian Experience</h1>
+    <p>It’s not just about where you go — it’s about how it feels when you arrive. Canada welcomes you not only with its beauty, but with a sense of belonging.</p>
+  </section>
+
+  <!-- ADVENTURE -->
+  <section class="fade-up">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="https://adventures.com/media/2898/t-canada-kayaking-lake-mountains-fun-activity-1.jpg?center=0.78333333333333333,0.51&mode=crop&width=727&height=520&format=jpg&quality=80&rnd=132070689960000000" class="section-img" alt="Adventure in Canada">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Adventure — The Call of the Wild</h2>
+          <p>
+            When you first step into Canada’s vast wilderness, you feel it — a quiet pulse that beats beneath the mountains and forests. The air tastes pure, sharp, alive.  
+            You hike through trails that stretch for miles, hearing nothing but your footsteps and the wind whispering through pine trees.  
+            Adventure here isn’t just adrenaline — it’s awe. It’s the humbling reminder that the world is still wild, and you are a part of it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROMANTIC -->
+  <section class="fade-up">
+    <div class="container">
+      <div class="row align-items-center g-5 flex-row-reverse">
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1000&q=80" class="section-img" alt="Romantic Getaway">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Romance — A Love Story in Every Season</h2>
+          <p>
+            There’s something in the air here — crisp, quiet, and impossibly serene.  
+            Whether you’re walking hand-in-hand through the cobblestone streets of Old Quebec, or sharing a sunrise over Lake Louise, love seems to echo louder in the cold.  
+            The stillness amplifies connection. Canada doesn’t just set the scene for romance — it *feels* like one.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUXURY -->
+  <section class="fade-up">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="https://i.pinimg.com/736x/70/a8/ab/70a8ab5aa285df3fa6c8b95d497dadcd.jpg" class="section-img" alt="Luxury Canada">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Luxury — Serenity Meets Sophistication</h2>
+          <p>
+            In Canada, luxury feels different. It’s not loud — it’s quiet, effortless, and surrounded by silence.  
+            You might wake up in a lakeside lodge where snow falls softly outside your window, or dine under a blanket of northern lights.  
+            Here, indulgence comes with tranquility — the kind that nourishes your soul more than your senses.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAMILY -->
+  <section class="fade-up">
+    <div class="container">
+      <div class="row align-items-center g-5 flex-row-reverse">
+        <div class="col-lg-6">
+          <img src="https://www.shutterstock.com/image-photo/relaxed-young-woman-using-tablet-260nw-197621465.jpg" class="section-img" alt="Family in Canada">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Family — Moments That Stay Forever</h2>
+          <p>
+            Families come to Canada and leave changed.  
+            Maybe it’s the laughter echoing across a frozen lake, the joy of spotting a moose for the first time, or roasting marshmallows beside a glowing campfire.  
+            These are not just vacations — they’re memories stitched into time.  
+            Canada reminds you that the best adventures are the ones you share.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote fade-up">
+    <blockquote>
+      “When you reach Canada, you don’t just see landscapes — you feel them. Every mountain, every lake, every moment tells you: you’re part of something vast, and beautiful.”
+      <span>— Discover Canada</span>
+    </blockquote>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Discover Canada | Designed with ❤️ for explorers everywhere.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
